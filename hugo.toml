@@ -20,8 +20,8 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "risotto"
-description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
+title = "nathanrosspowell"
+description = "A [gamedev](https://nathanrosspowell.github.io) focused on programming."
 # unicode/emoji logo:
 logo = "🦥"
 # or use an image:
@@ -35,12 +35,12 @@ logo = "🦥"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/nathanrosspowell"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:example@example.com"
+url = "mailto:@example.com"
 
 [[params.socialLinks]]
 icon = "ai ai-orcid"

@@ -1,8 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'NRP BLOG'
-copyright = "Copyright ©️ 2024-"
-copyright2 = "Nathan Ross Powell"
+copyright = "Copyright ©️ 2024-2025, Nathan Ross Powell"
 theme = 'risotto'
 pagination.pagerSize = 3
 DefaultContentLanguage = "en-us"

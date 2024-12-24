@@ -75,6 +75,17 @@ unsafe = true
     endLevel   = 3
     ordered    = true
 
+  [markup.highlight]
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    noClasses = true
+    style = 'dracula'
+    tabWidth = 4
+
 [privacy]
 
   [privacy.vimeo]

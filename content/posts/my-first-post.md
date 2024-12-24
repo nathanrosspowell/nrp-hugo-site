@@ -1,18 +1,47 @@
 +++
-date = '2024-12-19T00:10:26-05:00'
+date = '2024-12-23T23:16:26-05:00'
 draft = false
-title = 'My First Post'
+title = 'First Post (again)'
 +++
 
-# First Post (again)
+_Another blog, another tech stack, another fuzzy goal!_
 
-Hello everyone
 
+## Bloggin' History
+
+My record for blogging is a bit spotty. 
+
+
+## Language Preferences
+
+Times do be changing.
+
+### C++
 
 ```cpp
-void main() {
-    std::out << "Hello, world!";
+#include <iostream>
+ 
+int main()
+{
+    std::cout << "Hello, world!\n" << std::endl;
+    return 0;
 }
 ```
+
+### Odin 
+
+```odin
+package main
+
+import "core:fmt"
+
+main :: proc() {
+	fmt.println("Hello, world!")
+}
+```
+
+
+## Stay Tuned!
+
 
 Thanks.

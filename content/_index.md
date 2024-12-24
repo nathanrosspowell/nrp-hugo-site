@@ -2,7 +2,7 @@
 title = "Index Page"
 +++
 
-# nrp blog
+# NRP Blog
 
 I'm Nathan.
 

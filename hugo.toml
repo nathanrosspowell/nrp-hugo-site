@@ -1,10 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'NRP BLOG'
+copyright = "Copyright ©️ 2024-"
+copyright2 = "Nathan Ross Powell"
 theme = 'risotto'
 pagination.pagerSize = 3
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "en-us"
 enableInlineShortcodes = true
+
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
@@ -16,12 +19,12 @@ sectionPagesMenu = "main"
 noindex = false
 
 [params.theme]
-palette = "base16-dark"
+palette = "nrp"
 
 # Sidebar: about/bio
 [params.about]
 title = "nathanrosspowell"
-description = "A [gamedev](https://nathanrosspowell.github.io) focused on programming."
+description = "A [gamedev](https://nathanrosspowell.github.io) focused on gameplay, network and engine programming."
 # unicode/emoji logo:
 logo = "🦥"
 # or use an image:

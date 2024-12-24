@@ -1,1 +1,62 @@
 /* Override this file to customise the theme's CSS for your site */
+
+/**
+ * Undo the styling for the body of the file, we'll use 'heading-hash' instead for links. 
+ * See 'typeography.css'
+ */
+h1:before { content: "# "; }
+h2:before { content: ""; }
+h3:before { content: ""; }
+h4:before { content: ""; }
+h5:before { content: ""; }
+h6:before { content: ""; }
+
+h1:before, 
+h2:before, 
+h3:before, 
+h4:before, 
+h5:before, 
+h6:before {
+    color: var(--muted);
+}
+
+/**
+ * Using a slighty different setup to have the h2, and lower, have clickable ':before' links
+ * See 'render-heading.html' for how it's applied to the markdown.
+ */
+.heading-hash {
+    text-decoration: none;
+}
+
+.heading-hash:before { 
+    content: ""; 
+}
+
+h1 .heading-hash:before { content: "# "; }
+h2 .heading-hash:before { content: "## "; }
+h3 .heading-hash:before { content: "### "; }
+h4 .heading-hash:before { content: "#### "; }
+h5 .heading-hash:before { content: "##### "; }
+h6 .heading-hash:before { content: "###### "; }
+
+/**
+ * Change the size of the headings for easier visual parsing
+ */
+h1 {
+    color: var(--base0B);
+    font-size: 150%;
+}
+
+header.h1 {
+    font-size: 200%;
+}
+
+
+h2 {
+    color: var(--base0B);
+    font-size: 125%;
+}
+
+h3 {
+    color: var(--base0B);
+}

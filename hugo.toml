@@ -51,6 +51,11 @@ title = "Bluesky Profile"
 url = "https://bsky.app/profile/nrp.zone"
 
 [[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn Profile"
+url = "https://www.linkedin.com/in/nathanrosspowell/"
+
+[[params.socialLinks]]
 icon = "fa-solid fa-rss"
 title = "Blog RSS"
 url = "https://nrp.zone/index.xml"

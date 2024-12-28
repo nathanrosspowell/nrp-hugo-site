@@ -60,3 +60,8 @@ h2 {
 h3 {
     color: var(--base0B);
 }
+
+.big-font {
+    font-family: "BigBlueTerminal"
+}
+

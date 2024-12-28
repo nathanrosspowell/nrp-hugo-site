@@ -1,9 +1,12 @@
 +++
 date = '2024-12-19T00:30:31-05:00'
-draft = false
 title = 'Another Post'
+description = "Hugo, the world's fastest framework for building websites"
+author = "Nathan Ross Powell"
+intro = 150
+draft = false
 +++
 
-# Neato
+## Neato
 
 Yes sir.

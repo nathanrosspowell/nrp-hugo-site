@@ -1,6 +1,11 @@
 /* Fonts */
+@font-face {
+    font-family: "BigBlueTerminal";
+    src: url('../fonts/BigBlue_TerminalPlus.ttf') format('truetype')
+}
+
 :root {
-    --font-monospace: "Fira Mono", monospace;
+    --font-monospace: "BigBlueTerminal", "Fira Mono", monospace;
 }
 
 body {

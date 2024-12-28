@@ -1,17 +1,28 @@
 /* Fonts */
 @font-face {
     font-family: "BigBlueTerminal";
-    src: url('../fonts/BigBlue_TerminalPlus.TTF') format('truetype')
+    src: url('../fonts/BigBlueTerminal/BigBlue_TerminalPlus.TTF') format('truetype')
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url('../fonts/SpaceMono/SpaceMono-Regular.ttf') format('truetype')
 }
 
 :root {
-    --font-monospace: "BigBlueTerminal", "Fira Mono", monospace;
+    --font-heading: "BigBlueTerminal", "Fira Mono", monospace;
+    --font-code: "BigBlueTerminal", "SpaceMono", "Fira Mono", monospace;
+    --font-monospace: "SpaceMono", "Fira Mono", monospace;
 }
 
 body {
     font-family: var(--font-monospace);
     font-size: 16px;
     line-height: 1.5rem;
+}
+
+nav {
+    font-family: var(--font-heading);
 }
 
 /* Headings */
@@ -21,6 +32,7 @@ h3,
 h4, 
 h5, 
 h6 {
+    font-family: var(--font-heading);
     font-size: 1rem;
     margin: 1.5rem 0 0 0;
     font-weight: 600;
@@ -153,7 +165,7 @@ code,
 kbd,
 samp {
     background: var(--inner-bg) !important;
-    font-family: var(--font-monospace);
+    font-family: var(--font-code);
     color: var(--off-fg);
 }
 

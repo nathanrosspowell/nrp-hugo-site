@@ -6,5 +6,22 @@
     <div class="content__body">
         {{ .Content }}
     </div>
-{{ end }}
 
+    <div class="content__body">
+        <h1>Latest Blog Posts:</h1>
+        {{ $posts := where .Site.RegularPages "Section" "posts" }}
+        {{ range first 2 $posts }}
+        <article class="post">
+            <h3><a href="{{ .Permalink }}" class="heading-hash"></a>{{ .Title | markdownify }}</h3>
+            <p class="post__meta">
+                <span class="date">{{ .Date.Format "2 January 2006" }}</span>
+            </p>
+            <section class="post__summary">
+                {{ $wordCount := default 100 .Params.intro }}
+                <em>{{ .Plain | truncate $wordCount "..." }}</em>
+            </section>
+            
+        </article>
+        {{ end }}
+    </div>
+{{ end }}

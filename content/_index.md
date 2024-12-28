@@ -1,7 +1,7 @@
 +++
 date = '2024-12-23T23:16:26-05:00'
 draft = false
-title = "NRP ZONE"
+title = "A Blog by Nathan Ross Powell"
 +++
 
 ## Blog

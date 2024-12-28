@@ -2,6 +2,9 @@
 date = '2024-12-23T23:16:26-05:00'
 draft = false
 title = 'First Post (again)'
+description = "Hugo, the world's fastest framework for building websites"
+author = "Nathan Ross Powell"
+intro = 150
 +++
 
 _Another blog, another tech stack, another fuzzy goal!_

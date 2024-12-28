@@ -22,8 +22,8 @@ palette = "nrp"
 
 # Sidebar: about/bio
 [params.about]
-title = "nathanrosspowell"
-description = "A [gamedev](https://nathanrosspowell.github.io) focused on gameplay, network and engine programming."
+title = "nrp zone"
+description = "A blog by the gamedev [Nathan Ross Powell](https://nathanrosspowell.github.io). They mainly focus on gameplay, network and engine programming."
 # unicode/emoji logo:
 logo = "🦥"
 # or use an image:

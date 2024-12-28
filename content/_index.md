@@ -1,12 +1,14 @@
 +++
-title = "Index Page"
+date = '2024-12-23T23:16:26-05:00'
+draft = false
+title = "NRP ZONE"
 +++
 
-# NRP Blog
+## Blog
 
 I'm Nathan.
 
-# Let's Talk Programming
+## Let's Talk Programming
 
 My passion is solving issues in games.
 

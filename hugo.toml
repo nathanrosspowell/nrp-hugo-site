@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nrp.zone/'
 languageCode = 'en-us'
-title = 'NRP BLOG'
+title = 'nrp.zone'
 copyright = "Copyright ©️ 2024-2025, Nathan Ross Powell"
 theme = 'risotto'
 pagination.pagerSize = 3

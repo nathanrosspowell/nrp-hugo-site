@@ -1,8 +1,11 @@
 {{ define "main" }}
     <header class="content__header">
         <h1>{{ .Title | markdownify }}</h1>
-        {{ .Content }}
     </header>
+
+    <div class="content__body">
+        {{ .Content }}
+    </div>
 
     {{ range .Pages }}
     <article class="post">

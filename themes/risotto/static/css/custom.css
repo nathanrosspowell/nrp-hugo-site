@@ -61,6 +61,9 @@ h3 {
     color: var(--base0B);
 }
 
+/**
+ * Specific Fonts
+ */
 .font-BigBlueTerminal {
     font-family: "BigBlueTerminal";
 }
@@ -69,3 +72,19 @@ h3 {
     font-family: "SpaceMono";
 }
 
+/**
+ * Blog images
+ */
+section.page__body > div > p > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/**
+ * Code Blocks
+ */
+code {
+    text-wrap: wrap;
+}

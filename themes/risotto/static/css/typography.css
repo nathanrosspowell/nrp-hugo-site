@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: "BigBlueTerminal";
-    src: url('../fonts/BigBlue_TerminalPlus.ttf') format('truetype')
+    src: url('../fonts/BigBlue_TerminalPlus.TTF') format('truetype')
 }
 
 :root {

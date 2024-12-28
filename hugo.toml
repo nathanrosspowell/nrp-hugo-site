@@ -14,6 +14,12 @@ ignoreErrors = ["error-remote-getjson"]
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
 [params]
 noindex = false
 
@@ -36,18 +42,24 @@ logo = "🦥"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
-title = "GitHub"
+title = "GitHub Profile"
 url = "https://github.com/nathanrosspowell"
 
 [[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:@example.com"
+icon = "fa-brands fa-bluesky"
+title = "Bluesky Profile"
+url = "https://bsky.app/profile/nrp.zone"
 
 [[params.socialLinks]]
-icon = "ai ai-orcid"
-title = "ORCID"
-url = "https://orcid.org/0000-0001-2345-6789"
+icon = "fa-solid fa-rss"
+title = "Blog RSS"
+url = "https://nrp.zone/index.xml"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-link"
+title = "Project Links"
+url = "https://nathanrosspowell.github.io/"
+
 
 [menu]
 

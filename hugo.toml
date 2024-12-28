@@ -28,10 +28,11 @@ palette = "nrp"
 
 # Sidebar: about/bio
 [params.about]
-title = "nrp zone"
+title = "nrp.zone"
 description = "A blog by the gamedev [Nathan Ross Powell](https://nathanrosspowell.github.io). They mainly focus on gameplay, network and engine programming."
+profilepic = "images/pfp.png"
 # unicode/emoji logo:
-logo = "🦥"
+logo = ""
 # or use an image:
 #logo_image = "images/rice.svg"
 

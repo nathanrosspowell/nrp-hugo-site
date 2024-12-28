@@ -75,11 +75,16 @@ h3 {
 /**
  * Blog images
  */
-section.page__body > div > p > img {
+p > img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.about__profilepic {
+    padding-top: 25px;
+    max-width: 128px;
 }
 
 /**

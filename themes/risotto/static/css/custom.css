@@ -61,7 +61,11 @@ h3 {
     color: var(--base0B);
 }
 
-.big-font {
-    font-family: "BigBlueTerminal"
+.font-BigBlueTerminal {
+    font-family: "BigBlueTerminal";
+}
+
+.font-SpaceMono {
+    font-family: "SpaceMono";
 }
 

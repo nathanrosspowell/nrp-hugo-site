@@ -18,7 +18,7 @@
             </p>
             <section class="post__summary">
                 {{ $wordCount := default 100 .Params.intro }}
-                <em>{{ .Plain | truncate $wordCount "..." }}</em>
+                <em>{{ .Plain | htmlUnescape | truncate $wordCount "..." }}</em>
             </section>
             
         </article>

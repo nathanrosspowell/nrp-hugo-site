@@ -93,3 +93,35 @@ p > img {
 code {
     text-wrap: wrap;
 }
+
+/**
+ * Tables
+ */
+ table {
+    border-collapse: collapse;
+}
+thead tr {
+    color: var(--base01);
+    font-family: var(--font-heading);
+    background-color: var(--base04);
+}
+th,
+td {
+    padding: 4px 8px;
+    overflow-wrap: break-word;
+}
+tbody tr {
+    border-bottom: 0.5px solid var(--base0D);
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: var(--base02)
+}
+
+tbody tr:last-of-type {
+    border-bottom: 0.5px solid var(--base04)
+}
+tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

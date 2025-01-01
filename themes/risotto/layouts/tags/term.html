@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>Tag - {{ .Title | markdownify }}</h1>
+    </header>
+
+    {{ range .Pages }}
+        {{ .Render "date_li" }}
+    {{ end }}
+{{ end }}
+
+{{define "aside" }}
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+{{ end }}

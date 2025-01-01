@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+
+    {{ .Content }}
+
+    {{ $pages := .Pages.GroupByDate "January 2006" }}
+    {{ range $pages }}
+        {{ $headerID := .Key | replaceRE " " "" | safeURL}}
+        <h2 id="{{ $headerID }}">
+            <a href="#{{ $headerID }}" class="heading-hash"></a>{{ .Key | safeHTML }}
+        </h2>
+        <ul>
+        {{ range .Pages }}
+            {{ .Render "date_li" }}
+        {{ end }}
+        </ul>
+    {{ end }}
+
+{{ end }}
+
+{{define "aside" }}
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+{{ end }}

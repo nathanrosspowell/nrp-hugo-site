@@ -10,7 +10,7 @@
     <div class="content__body">
         <h1>Latest Blog Posts:</h1>
         {{ $posts := where .Site.RegularPages "Section" "posts" }}
-        {{ range first 2 $posts }}
+        {{ range first 3 $posts }}
         <article class="post">
             <h3><a href="{{ .Permalink }}" class="heading-hash"></a>{{ .Title | markdownify }}</h3>
             <p class="post__meta">

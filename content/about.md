@@ -35,6 +35,8 @@ Here are some of my credited projects:
 | Ferrari: The Race Experience    | 2010    | Eutechnyx   |
 | Hot Wheels: Beat That!          | 2007    | Eutechnyx   |
 
+![Watch_Dogs 2, title cover](/images/wd2.png)
+
 Additionally, some games never get made, so this list covers the _'explain the gaps in resume'_ question:
 
 | Project                         | Years     | 

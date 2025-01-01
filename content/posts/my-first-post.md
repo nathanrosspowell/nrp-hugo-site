@@ -5,6 +5,7 @@ description = "Hugo, the world's fastest framework for building websites"
 author = "Nathan Ross Powell"
 intro = 150
 draft = false
+tags = ["Yes", "no"]
 +++
 
 _Another blog, another tech stack, another fuzzy goal!_

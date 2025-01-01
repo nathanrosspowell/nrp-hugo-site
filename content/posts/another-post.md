@@ -5,6 +5,7 @@ description = "Hugo, the world's fastest framework for building websites"
 author = "Nathan Ross Powell"
 intro = 150
 draft = false
+tags = ["gamedev", "no"]
 +++
 
 ## Neato

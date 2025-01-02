@@ -2,6 +2,8 @@
 date = '2024-12-30T01:30:01-05:00'
 draft = true
 title = 'Word of the Year'
+author = "Nathan Ross Powell"
+tags = ["gamedev", "technology", "programming"]
 +++
 
 > [local ](https://www.merriam-webster.com/dictionary/local)

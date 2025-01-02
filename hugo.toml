@@ -64,7 +64,7 @@ url = "https://nrp.zone/index.xml"
 [[params.socialLinks]]
 icon = "fa-solid fa-link"
 title = "Project Links"
-url = "https://nathanrosspowell.github.io/"
+url = "https://nathanrosspowell.com/"
 
 
 [menu]

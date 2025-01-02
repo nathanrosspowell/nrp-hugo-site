@@ -3,9 +3,9 @@ date = '2024-12-23T23:16:26-05:00'
 title = 'First Post (again)'
 description = "Hugo, the world's fastest framework for building websites"
 author = "Nathan Ross Powell"
+tags = ["gamedev", "technology", "programming"]
 intro = 150
 draft = false
-tags = ["Yes", "no"]
 +++
 
 _Another blog, another tech stack, another fuzzy goal!_

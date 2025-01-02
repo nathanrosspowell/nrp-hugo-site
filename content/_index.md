@@ -4,8 +4,13 @@ draft = false
 title = "Nathan Ross Powell's Blog"
 +++
 
-Welcome and enjoy.
+Please check out the long form content on the following:
 
-* [Gamedev](/tags/gamedev)
-* Programming
-* Technology
+* #[gamedev](/tags/gamedev)
+* #[programming](/tags/programming)
+* #[technology](/tags/technology)
+* and [more tags!](/tags/)
+
+If you're after projects, check out:
+
+* [nathanrosspowell.com](https://nathanrosspowell.com/)

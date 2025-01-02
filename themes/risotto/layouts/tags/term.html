@@ -1,11 +1,15 @@
 {{ define "main" }}
     <header class="content__header">
-        <h1>Tag - {{ .Title | markdownify }}</h1>
+        <h1>Tag - #{{ .Title | markdownify | lower}}</h1>
     </header>
 
-    {{ range .Pages }}
-        {{ .Render "date_li" }}
-    {{ end }}
+    <p></p>
+
+    <ul>
+        {{ range .Pages }}
+            {{ .Render "date_li" }}
+        {{ end }}
+    </ul>
 {{ end }}
 
 {{define "aside" }}
